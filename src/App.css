@@ -2,11 +2,11 @@
   /* Colors: */
   --main-color: white;
   --second-color: #DCFDFF;
-  --third-color: #ffd3ff;
-  --hover-color: #b74294;
+  --third-color: #1698CB;
+  --hover-color: #14779e;
 
   /* Fonts: */
-  --heading-font: "Cabin", sans-serif;;
+  --heading-font: "Noto Sans", sans-serif;
   --main-font: "Hanken Grotesk", sans-serif;
 
   /* Padding and margin spaces: */
@@ -36,6 +36,8 @@ body, html {
   padding: 0;
   box-sizing: border-box;
   height: 100%;
+  font-family: var(--main-font);
+  overflow-x: hidden;
 }
 
 
