@@ -58,11 +58,46 @@
   align-items: center;
 }
 
+.headerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.headerIcons button {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.508);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  margin-right: var(--space-xs);
+}
+
+.headerIcons button:hover {
+  cursor: pointer;
+  background-color: var(--second-color);
+}
+
+.homeIcon {
+  font-size: 30px !important;
+  color: white;
+}
+
+.headerIcons button:hover .homeIcon {
+  cursor: pointer;
+  color: var(--hover-color);
+}
+
 .header .innerBox .links {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   margin-top: var(--space-m);
 }
@@ -156,18 +191,103 @@
   width: 100%;
   height: 50rem;
   background-color: var(--main-color);
+  position: relative;
 }
 
+.firstSection-aboutMe .innerBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
 
+.firstSection-aboutMe .aboutPopisek {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  width: 50%;
+}
 
+.firstSection-aboutMe h3 {
+  font-size: var(--size-xxl);
+  font-family: var(--main-font);
+  color: var(--hover-color);
+  position: absolute;
+  top: -5rem;
+}
 
+.firstSection-aboutMe p {
+  font-size: var(--size-m);
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+  z-index: 1;
+}
 
+.firstSection-aboutMe .aboutPicture {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-left: calc(var(--space-xl) * 2);
+}
 
+.cardDash {
+  width: 30rem;
+  height: 45rem;
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+}
 
+.firstCard {
+  border: 1px solid var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+  background-color: #5dd0fd46;
+  transform: translateX(-20%) rotate(-30deg);
+}
 
+.secondCard {
+  border: 1px solid var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+  transform: translateX(-10%) rotate(-20deg);
+  background-color: #5dd0fd46;
+  z-index: 1;
+}
 
+.thirdCard {
+  border: 1px solid var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+  transform: translateX(0%) rotate(-10deg);
+  background-color: #5dd0fd46;
+  z-index: 2;
+}
 
+.fourthCard {
+  border: 1px solid var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+  transform: translateX(10%) rotate(0deg);
+  z-index: 3;
+  object-fit: cover;
+}
 
+#surfPicture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block; 
+  border-radius: 16px; 
+}
+
+#splash {
+  position: absolute;
+  top: 50px;
+  right: -40%;
+  opacity: 0.3;
+}
 
 
 
