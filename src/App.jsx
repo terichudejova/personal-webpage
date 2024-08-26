@@ -10,6 +10,9 @@ import JavascriptIcon from '@mui/icons-material/Javascript';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import CardSkills from './CardSkills';
+import DashCard from "./DashCard";
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 
 function App() {
@@ -31,7 +34,7 @@ function App() {
                 <li><a href='#mainContainer'>Domů</a></li>
                 <li><a href='#linkOmne'>O mně</a></li>
                 <li><a href='#linkDovednosti'>Dovednosti</a></li>
-                <li><a>Má práce</a></li>
+                <li><a href='#linkPortfolio'>Má práce</a></li>
                 <li><a>Kontaktuj mě</a></li>
               </ul>
             </div>
@@ -108,10 +111,11 @@ function App() {
               <li>Přechody hor</li>
               <li>Sport</li>
               <li>Vaření a pečení</li>
+              <li>Točení receptů</li>
               <li>Filmy a seriály</li>
             </ul>
           </div>
-          <svg id='splash' width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+          <svg id='splash' width="100%" height="80%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
             <path d="M300,50 C250,90 150,70 100,150 C50,230 120,280 150,350 C180,420 280,420 320,380 C360,340 460,360 480,300 C500,240 400,220 400,150 C400,80 350,10 300,50 Z" fill="#1698CB" />
           </svg>
         </div>
@@ -123,6 +127,24 @@ function App() {
       <div className="secondSection-skills outerBox">
         <div className='innerBox'>
           <h3 id='linkDovednosti'>Dovednosti</h3>
+          <div className="skills">
+            <CardSkills skill={"HTML5"}/>
+            <CardSkills skill={"CSS3"}/>
+            <CardSkills skill={"SQL"}/>
+            <CardSkills skill={"JavaScript"}/>
+            <CardSkills skill={"React"}/>
+            <CardSkills skill={"Bootstrap"}/>
+            <CardSkills skill={"Git & GitHub"}/>
+            <CardSkills skill={"EPC"}/>
+            <CardSkills skill={"SSMS"}/>
+            <CardSkills skill={"MS Office"}/>
+            <CardSkills skill={"Visual Studio"}/>
+            <CardSkills skill={"Visual Code"}/>
+            <CardSkills skill={"Lightroom"}/>
+            <CardSkills skill={"Canva"}/>
+            <CardSkills skill={"Procreate"}/>
+            <CardSkills skill={"Copywriting"}/>
+          </div>
         </div>
       </div>
 
@@ -130,15 +152,63 @@ function App() {
 
 
         {/* THIRD SECTION */}
-        <div className="thirdSection outerBox">
+        <div className="thirdSection-portfolio outerBox">
         <div className='innerBox'>
-          <div className='aboutPicture'>
-            <div className='firstCard cardDash'></div>
-            <div className='secondCard cardDash'></div>
-            <div className='thirdCard cardDash'></div>
-            <div className="fourthCard cardDash"><img id='surfPic' src='images/surf.png'/></div>
+          <h3 id='linkPortfolio'>Má práce</h3>
+          <div className='portfolio'>
+            <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><DashCard url={"images/kavarna_mockup.png"}/></a>
+            <div className='portfolioPopisek'>
+                <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><h4>Kavárna Stará škola <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <ul>
+                  <li>Projekt organizace Elpida zaměstnávající seniory</li>
+                  <li>Zaměření se na firemní identitu, barvy a cílovou skupinu</li>
+                  <li>Responsivní web-design</li>
+                  <li>Foto carousel</li>
+                  <li>Integrovaná mapa</li>
+                  <br/>
+                  <a href='https://www.instagram.com/staraskola_elpida/' target='_isBlank'><span><li>© fotky + logo: Instagram kavárny</li></span></a>
+                </ul>
+            </div>
+            <div className='dividingLine'></div>
           </div>
           
+          <div className='portfolio'>
+            <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><DashCard url={"images/quantum_mockup.png"}/></a>
+            <div className='portfolioPopisek'>
+                <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><h4>QuantumByte Solutions <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <ul>
+                  <li>Imaginární IT firma nabízející služby založené na AI</li>
+                  <li>Zaměření se na design</li>
+                  <li>Responsivní web-design</li>
+                  <li>Animované komponenty</li>
+                  <li>Integrovaný formulář</li>
+                  <li>Integrovaná mapa</li>
+                  <br/>
+                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_isBlank'><span><li>© fotky: Freepik</li></span></a>
+                </ul>
+            </div>
+            <div className='dividingLine'></div>
+          </div>
+
+
+          <div className='portfolio'>
+            <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><DashCard url={"images/kalkulacka_mockup.png"}/></a>
+            <div className='portfolioPopisek'>
+                <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><h4>Kalorická Kalkulačka <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <ul>
+                  <li>Zaměření se na funkcionalitu</li>
+                  <li>Naprogramovaná kalkulačka na vypočítání BMR využívající např. toggler</li>
+                  <li>Responsivní web-design</li>
+                  <li>CSS animace</li>
+                  <li>Využití JavaScriptu, Reactu</li>
+                  <br/>
+                  <a href='https://unsplash.com/' target='_isBlank'><span><li>© fotky: Unsplash</li></span></a>
+                </ul>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
 
