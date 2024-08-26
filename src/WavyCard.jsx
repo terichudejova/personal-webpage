@@ -15,15 +15,15 @@ export default function WavyCard() {
 
                 <h4>Ing. Tereza Chudějová</h4>
                 <a class="name" href="mailto:tereza.chudejova@gmail.com" target="_isBlank">
-                    <EmailIcon sx={{fontSize: "30px"}}/>
+                    <EmailIcon sx={{fontSize: "27px"}}/>
                     <p>tereza.chudejova@gmail.com</p>
                 </a>
                 <a class="name" href="https://www.instagram.com/terichudejova/" target="_isBlank">
-                    <InstagramIcon sx={{fontSize: "30px"}}/>
+                    <InstagramIcon sx={{fontSize: "27px"}}/>
                     <p>terichudejova</p>
                 </a>
                 <a class="name" href="https://github.com/terichudejova" target="_isBlank">
-                    <GitHubIcon sx={{fontSize: "30px"}}/>
+                    <GitHubIcon sx={{fontSize: "27px"}}/>
                     <p>terichudejova</p>
                 </a>
                 <div className="contactPicture">

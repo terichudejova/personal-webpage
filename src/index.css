@@ -613,7 +613,7 @@
 
 .fourthSection-contact {
   width: 100%;
-  height: 1000px;
+  height: auto;
   background-color: var(--main-color);
   margin-top: var(--space-xxl);
 }
@@ -649,6 +649,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  margin-top: var(--space-xxl);
+  margin-bottom: calc(var(--space-l) * 2);
 }
 
 /* ------------------------------------------------------------ */

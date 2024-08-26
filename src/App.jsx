@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import React from 'react'
 import RolloutButton from "./RolloutButton"
 import WavyCard from './WavyCard'
 import HomeIcon from '@mui/icons-material/Home';
@@ -13,6 +14,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import CardSkills from './CardSkills';
 import DashCard from "./DashCard";
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import FormularComponent from './FormularComponent'
 
 
 function App() {
@@ -35,7 +37,7 @@ function App() {
                 <li><a href='#linkOmne'>O mně</a></li>
                 <li><a href='#linkDovednosti'>Dovednosti</a></li>
                 <li><a href='#linkPortfolio'>Má práce</a></li>
-                <li><a>Kontaktuj mě</a></li>
+                <li><a href='#linkContact'>Kontaktuj mě</a></li>
               </ul>
             </div>
             <div className="about">
@@ -216,9 +218,10 @@ function App() {
       {/* FOURTH SECTION - KONTAKT */}
       <div className="fourthSection-contact outerBox">
           <div className="innerBox">
-              <h3>Kontaktujte mě</h3>
+              <h3 id='linkContact'>Kontaktuj mě</h3>
               <div className='contactPage'>
                 <WavyCard />
+                <FormularComponent />
               </div>
           </div>
       </div>
