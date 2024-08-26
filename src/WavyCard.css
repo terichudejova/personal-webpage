@@ -4,16 +4,20 @@
     background: transparent;
     box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
     position: relative;
-    width: 240px;
-    height: 330px;
+    /* width: 240px;
+    height: 330px; */
+    width: 300px;
+    height: 400px;
     border-radius: 16px;
     overflow: hidden;
   }
   
   .wave {
     position: absolute;
-    width: 540px;
-    height: 700px;
+    /* width: 540px;
+    height: 700px; */
+    width: 700px;
+    height: 900px;
     opacity: 0.6;
     left: 0;
     top: 0;
@@ -32,20 +36,62 @@
     text-align: center;
     font-size: 18px;
     position: absolute;
-    top: 5.6em;
+    top: var(--space-s);
     left: 0;
     right: 0;
     color: rgb(255, 255, 255);
-    font-weight: 500;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .infotop h4 {
+    margin-bottom: 0;
   }
   
   .name {
-    font-size: 14px;
+    font-size: var(--size-s);
     font-weight: 100;
     position: relative;
     top: 1em;
     text-transform: lowercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 var(--space-s);
   }
+
+  .playing a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .name p {
+    margin-left: var(--space-xs);
+  }
+
+  .name:hover {
+    cursor: pointer;
+    color: var(--hover-color)
+  }
+
+  .contactPicture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.508);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: var(--space-m);
+  }
+
   
   .wave:nth-child(2),
   .wave:nth-child(3) {

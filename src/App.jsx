@@ -123,7 +123,7 @@ function App() {
 
 
 
-      {/* SECOND SECTION */}
+      {/* SECOND SECTION - DOVEDNOSTI */}
       <div className="secondSection-skills outerBox">
         <div className='innerBox'>
           <h3 id='linkDovednosti'>Dovednosti</h3>
@@ -151,7 +151,7 @@ function App() {
 
 
 
-        {/* THIRD SECTION */}
+        {/* THIRD SECTION - PORTFOLIO */}
         <div className="thirdSection-portfolio outerBox">
         <div className='innerBox'>
           <h3 id='linkPortfolio'>Má práce</h3>
@@ -207,14 +207,28 @@ function App() {
             </div>
           </div>
 
-
-
         </div>
       </div>
 
 
-      <div className="footer outerBox">
 
+
+      {/* FOURTH SECTION - KONTAKT */}
+      <div className="fourthSection-contact outerBox">
+          <div className="innerBox">
+              <h3>Kontaktujte mě</h3>
+              <div className='contactPage'>
+                <WavyCard />
+              </div>
+          </div>
+      </div>
+
+
+
+      <div className="footer outerBox">
+          <div className="innerBox">
+
+          </div>
       </div>
 
 

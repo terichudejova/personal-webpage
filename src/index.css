@@ -13,7 +13,6 @@
 }
 
 
-
 /* HEADER */
 .header {
   position: relative;
@@ -223,6 +222,17 @@
   top: -7rem;
 }
 
+.firstSection-aboutMe h3::after {
+  content: "";
+  width: 60%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: var(--purple-color);
+  position: absolute;
+  bottom: -15px;
+  left: 2px;
+}
+
 .firstSection-aboutMe h4 {
   font-size: var(--size-l);
   font-family: var(--main-font);
@@ -234,7 +244,7 @@
   font-size: var(--size-m);
   text-align: start;
   line-height: 1.6;
-  margin-top: var(--space-xl);
+  margin-top: var(--space-xxl);
   margin-right: var(--space-xl);
   z-index: 1;
   color: var(--grey-color);
@@ -451,6 +461,18 @@
   font-family: var(--main-font);
   color: var(--hover-color);
   padding-top: var(--space-m);
+  position: relative;
+}
+
+.secondSection-skills h3::after {
+  content: "";
+  width: 60%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: var(--hover-color);
+  position: absolute;
+  bottom: -15px;
+  left: 2px;
 }
 
 .secondSection-skills .skills {
@@ -477,25 +499,9 @@
 .thirdSection-portfolio {
   width: 100%;
   height: auto;
-  background-color: var(--main-color);
-  margin-top: var(--space-m);
+  background-image: linear-gradient(to top, #f6f0f9, #f5ecfa, #f4e8fb, #f3e4fc, #f2e0fd, #f2e2fe, #f2e3fe, #f2e5ff, #f4ecff, #f7f2ff, #fbf9ff, #ffffff);
+  margin-top: var(--space-xxl);
 }
-
-/* .thirdSection-portfolio::after {
-  content: "";
-  height: 100%;
-  width: 92%;
-  background: linear-gradient(130deg, #c2a7e8, #e4d6f7, #ebe3f7);
-  background-size: 600% 600%;
-  animation: gradientAnimation 5s ease infinite;
-  overflow: hidden;
-  border-top-left-radius: 10%;
-  border-bottom-left-radius: 10%;
-  position: absolute;
-  top:0;
-  right: 0;
-  z-index: -1;
-} */
 
 .thirdSection-portfolio .innerBox {
   display: flex;
@@ -510,6 +516,18 @@
   color: var(--purple-color);
   padding-top: var(--space-m);
   margin-bottom: calc(var(--space-l) * 2);
+  position: relative;
+}
+
+.thirdSection-portfolio h3::after {
+  content: "";
+  width: 60%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: var(--purple-color);
+  position: absolute;
+  bottom: -15px;
+  left: 2px;
 }
 
 .thirdSection-portfolio .portfolio {
@@ -564,7 +582,7 @@
 }
 
 .portfolioPopisek span {
-  color: rgb(165, 165, 165);
+  color: #b3a5bc;
 }
 
 .portfolioPopisek span:hover {
@@ -590,14 +608,48 @@
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 
+/* FOURTH SECTION - KONTAKT */
 
 
+.fourthSection-contact {
+  width: 100%;
+  height: 1000px;
+  background-color: var(--main-color);
+  margin-top: var(--space-xxl);
+}
 
+.fourthSection-contact .innerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
 
+.fourthSection-contact h3 {
+  font-size: var(--size-xxl);
+  font-family: var(--main-font);
+  color: var(--hover-color);
+  padding-top: var(--space-m);
+  position: relative;
+}
 
+.fourthSection-contact h3::after {
+  content: "";
+  width: 60%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: var(--hover-color);
+  position: absolute;
+  bottom: -15px;
+  left: 2px;
+}
 
-
-
+.fourthSection-contact .contactPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
 
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
