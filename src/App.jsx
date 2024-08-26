@@ -17,6 +17,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import FormularComponent from './FormularComponent'
 
 
+
 function App() {
 
   return (
@@ -26,15 +27,14 @@ function App() {
       {/* HEADER */}
       <div className='header outerBox'>
         <div className="gradient-bg"></div>
+        <div className='headerIcons'>
+          <a href='#mainContainer'><button><HomeIcon className='homeIcon'/></button></a>
+          <a href='#linkContact'><RolloutButton /></a>
+        </div>
           <div className="innerBox">
             <div className="links">
-              <div className='headerIcons'>
-                <button><HomeIcon className='homeIcon'/></button>
-                <RolloutButton />
-              </div>
               <ul>
-                <li><a href='#mainContainer'>Domů</a></li>
-                <li><a href='#linkOmne'>O mně</a></li>
+                <li><a href='#linkOmne'>O mně & časová osa</a></li>
                 <li><a href='#linkDovednosti'>Dovednosti</a></li>
                 <li><a href='#linkPortfolio'>Má práce</a></li>
                 <li><a href='#linkContact'>Kontaktuj mě</a></li>
@@ -130,22 +130,22 @@ function App() {
         <div className='innerBox'>
           <h3 id='linkDovednosti'>Dovednosti</h3>
           <div className="skills">
-            <CardSkills skill={"HTML5"}/>
-            <CardSkills skill={"CSS3"}/>
-            <CardSkills skill={"SQL"}/>
-            <CardSkills skill={"JavaScript"}/>
-            <CardSkills skill={"React"}/>
-            <CardSkills skill={"Bootstrap"}/>
-            <CardSkills skill={"Git & GitHub"}/>
-            <CardSkills skill={"EPC"}/>
-            <CardSkills skill={"SSMS"}/>
-            <CardSkills skill={"MS Office"}/>
-            <CardSkills skill={"Visual Studio"}/>
-            <CardSkills skill={"Visual Code"}/>
-            <CardSkills skill={"Lightroom"}/>
-            <CardSkills skill={"Canva"}/>
-            <CardSkills skill={"Procreate"}/>
-            <CardSkills skill={"Copywriting"}/>
+            <DashCard skill={"HTML5"}/>
+            <DashCard skill={"CSS3"}/>
+            <DashCard skill={"SQL"}/>
+            <DashCard skill={"JavaScript"}/>
+            <DashCard skill={"React"}/>
+            <DashCard skill={"Bootstrap"}/>
+            <DashCard skill={"Git & GitHub"}/>
+            <DashCard skill={"EPC"}/>
+            <DashCard skill={"SSMS"}/>
+            <DashCard skill={"MS Office"}/>
+            <DashCard skill={"Visual Studio"}/>
+            <DashCard skill={"Visual Code"}/>
+            <DashCard skill={"Lightroom"}/>
+            <DashCard skill={"Canva"}/>
+            <DashCard skill={"Procreate"}/>
+            <DashCard skill={"Copywriting"}/>
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@ function App() {
         <div className='innerBox'>
           <h3 id='linkPortfolio'>Má práce</h3>
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><DashCard url={"images/kavarna_mockup.png"}/></a>
+            <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><img className='portfolioMockups' src='images/kavarna_noBG.png'/></a>
             <div className='portfolioPopisek'>
                 <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><h4>Kavárna Stará škola <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
@@ -175,7 +175,7 @@ function App() {
           </div>
           
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><DashCard url={"images/quantum_mockup.png"}/></a>
+            <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><img className='portfolioMockups' src='images/quantum_noBG.png'/></a>
             <div className='portfolioPopisek'>
                 <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><h4>QuantumByte Solutions <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
@@ -194,7 +194,7 @@ function App() {
 
 
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><DashCard url={"images/kalkulacka_mockup.png"}/></a>
+            <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><img className='portfolioMockups' src='images/kalkulacka_noBG.png'/></a>
             <div className='portfolioPopisek'>
                 <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><h4>Kalorická Kalkulačka <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>

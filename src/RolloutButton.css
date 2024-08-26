@@ -1,5 +1,5 @@
 
-.button {
+.rolloutButton {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -16,23 +16,23 @@
     position: relative;
   }
   
-  .icon {
+  .rolloutIcon {
     font-size: 20px !important; 
-    color: white;
+    color: var(--hover-color);
     transition-duration: 0.3s;
   }
   
-  .button:hover {
+  .rolloutButton:hover {
     width: 140px;
     border-radius: 50px;
     background-color: var(--second-color);
   }
   
-  .button:hover .icon {
+  .rolloutButton:hover .rolloutIcon {
     transform: translateY(-200%);
   }
   
-  .button::before {
+  .rolloutButton::before {
     position: absolute;
     bottom: -20px;
     content: "Kontaktuj mě";
@@ -41,7 +41,7 @@
     transition-duration: 0.3s;
   }
   
-  .button:hover::before {
+  .rolloutButton:hover::before {
     font-size: var(--size-s);
     font-weight: 400;
     opacity: 1;

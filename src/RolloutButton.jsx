@@ -4,8 +4,8 @@ import "./RolloutButton.css"
 
 export default function RolloutButton() {
     return (
-        <button className="button">
-            <MessageIcon className="icon" />
+        <button className="rolloutButton">
+            <MessageIcon className="rolloutIcon" />
         </button>
     )
 }

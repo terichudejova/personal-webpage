@@ -59,9 +59,17 @@
 
 .headerIcons {
   display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  position: fixed;
+  top: var(--space-m);;
+  left: var(--space-m);
+  z-index: 6;
+}
+
+.header .headerIcons a {
+  padding: 0;
 }
 
 .headerIcons button {
@@ -75,6 +83,7 @@
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3); 
   margin-right: var(--space-xs);
+  margin-bottom: vaR(--space-s);
 }
 
 .headerIcons button:hover {
@@ -84,7 +93,7 @@
 
 .homeIcon {
   font-size: 30px !important;
-  color: white;
+  color: var(--hover-color);
 }
 
 .headerIcons button:hover .homeIcon {
@@ -96,7 +105,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   margin-top: var(--space-m);
 }
@@ -114,7 +123,7 @@
 .header ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
   width: auto;
   list-style: none;
@@ -256,19 +265,15 @@
 }
 
 .firstSection-aboutMe ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--space-s);
   list-style-position: inside;
   padding-left: 0;
 }
 
 .firstSection-aboutMe ul li {
   font-size: var(--size-s2);
-  margin-right: var(--space-m);
-  margin-bottom: var(--space-s);
   color: var(--grey-color);
 }
 
@@ -289,6 +294,7 @@
   top: 140px;
   right: -35%;
   opacity: 0.3;
+  display: none;
 }
 
 .timeline {
@@ -383,6 +389,7 @@
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   z-index: 2;
+  display: none;
 }
 
 #arrowDown {
@@ -431,22 +438,7 @@
   height: auto;
   z-index: 1;
   position: relative;
-}
-
-.secondSection-skills::after {
-  content: "";
-  height: 100%;
-  width: 92%;
-  background: linear-gradient(130deg, var(--second-color), #dfecf5, var(--second-color), #b9d8eb, var(--second-color));
-  background-size: 600% 600%;
-  animation: gradientAnimation 5s ease infinite;
-  overflow: hidden;
-  border-top-right-radius: 10%;
-  border-bottom-right-radius: 10%;
-  position: absolute;
-  top:0;
-  left: 0;
-  z-index: -1;
+  background-color: var(--second-color);
 }
 
 .secondSection-skills .innerBox {
@@ -476,11 +468,14 @@
 }
 
 .secondSection-skills .skills {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
   align-items: start;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-m);
   margin-top: var(--space-s);
   margin-bottom: var(--space-m);
 }
@@ -542,6 +537,16 @@
   position: relative;
 }
 
+.portfolioMockups {
+  width: 65rem;
+  height: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.portfolioMockups:hover {
+  transform: scale(1.05);
+}
+
 .portfolio .portfolioPopisek {
   width: 50%;
   display: flex;
@@ -553,7 +558,7 @@
 
 .portfolioPopisek h4 {
   font-size: var(--size-l);
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
   font-weight: 400;
   color: black;
   margin-top: 0;
@@ -567,7 +572,7 @@
 }
 
 .portfolioPopisek h4:hover {
-  color: var(--hover-color);
+  color: #3e1d6f;
   cursor: pointer;
 }
 
