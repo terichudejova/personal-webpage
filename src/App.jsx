@@ -227,10 +227,10 @@ function App() {
       </div>
 
 
-
+      {/* FOOTER */}
       <div className="footer outerBox">
           <div className="innerBox">
-
+              <p>© Tereza Chudějová, 2024</p>
           </div>
       </div>
 

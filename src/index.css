@@ -660,6 +660,39 @@
 
 
 
+
+/* LAST SECTION - FOOTER */
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: var(--second-color);
+}
+
+.footer .innerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-size: var(--size-xs);
+  margin: var(--space-xs2) auto;
+}
+
+
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+
+
+
+
+
+
 /* RESPONSIVITA */
 
 

@@ -38,7 +38,7 @@ const FormularComponent = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} style={formStyle}>
+        <form onSubmit={handleSubmit} className='formularObject'>
             <label htmlFor="name" className='label'>Jméno:</label>
             <input
                 type="text"
@@ -47,7 +47,7 @@ const FormularComponent = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                style={inputStyle}
+                className='inputStyle'
             />
 
             <label htmlFor="email" className='label'>E-mail:</label>
@@ -58,7 +58,7 @@ const FormularComponent = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                style={inputStyle}
+                className='inputStyle'
             />
 
             <label htmlFor="message" className='label'>Zpráva:</label>
@@ -68,51 +68,15 @@ const FormularComponent = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-                style={textareaStyle}
+                className='textArea'
             />
             <button type="submit" className='formularButton'>Odeslat</button>
         </form>
     );
 };
 
-// Inline stylování (můžete přenést do CSS souboru)
 
-const formStyle = {
-    background: 'var(--second-color)',
-    padding: '20px 30px',
-    borderRadius: '16px',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    width: '60rem',
-    height: "40rem",
-    boxSizing: "border-box",
-    margin: '0 100px',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyConent: "start",
-    alignItems: "start",
-    fontSize: "var(--size-s)",
-    fontFamily: "var(--main-font)"
-};
 
-const inputStyle = {
-    width: '100%',
-    padding: '10px',
-    marginBottom: '12px',
-    border: '1px solid #ddd',
-    borderRadius: '4px',
-    boxSizing: "border-box",
-    backgroundColor: "#e7f4fc"
-};
 
-const textareaStyle = {
-    width: '100%',
-    padding: '10px',
-    marginBottom: '12px',
-    border: '1px solid #ddd',
-    borderRadius: '4px',
-    minHeight: '100px',
-    boxSizing: "border-box",
-    backgroundColor: "#e7f4fc"
-};
 
 export default FormularComponent;

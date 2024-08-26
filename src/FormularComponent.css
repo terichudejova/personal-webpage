@@ -1,3 +1,49 @@
+/* Styling celého formuláře */
+.formularObject {
+  background: var(--second-color);
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 60rem;
+  height: 40rem;
+  box-sizing: border-box;
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; /* Opravený překlep: "justifyConent" → "justify-content" */
+  align-items: start;
+  font-size: var(--size-s);
+  font-family: var(--main-font);
+}
+
+
+
+/* Styling inputů (jméno a email) */
+.inputStyle {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #e7f4fc;
+}
+
+
+/* Styling textArea (zpráva) */
+.textArea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 100px;
+  box-sizing: border-box;
+  background-color: #e7f4fc;
+}
+
+
+
 /* Definice animace pro tlačítko */
 @keyframes gradient {
     0% { background-position: 0 50%; }
@@ -55,6 +101,7 @@
   
 
 
+  /* Styl labelů (popisků) */
   .label {
     margin-bottom: var(--space-xs);
   }
