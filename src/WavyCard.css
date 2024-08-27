@@ -152,3 +152,17 @@
       height: 130px;
     }
   }
+
+
+  @media only screen and (max-width: 1100px) {
+    .e-card {
+      order: 2;
+      margin-top: var(--space-xxl);
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .e-card {
+      width: 100%;
+    }
+  }

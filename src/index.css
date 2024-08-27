@@ -106,6 +106,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: var(--space-m);
 }
 
 .header a {
@@ -447,6 +448,10 @@
   margin: var(--space-m) auto;
 }
 
+.secondSection-skills .innerBox ul {
+  display: none;
+}
+
 
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
@@ -760,11 +765,354 @@
 }
 
 
-/* Media query for screens up to 900px */
-@media only screen and (max-width: 900px) {
-  .header::after {
-    height: 100px; /* Reduced height for medium screens */
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="%23ffffff" d="M0,144L48,136C96,128,192,112,288,106.7C384,101,480,96,576,96C672,96,768,106.7,864,120C960,133.3,1056,149.7,1152,154.7C1248,160,1344,149,1392,140L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom center;
+
+
+/* Menší obrazovky */
+@media only screen and (max-width: 1400px) {
+  .secondSection-skills .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .portfolio a {
+    align-self: center;
+  }
+
+  .portfolioMockups {
+    width: 55rem;
+    height: auto;
+  }
+
+  .portfolio .portfolioPopisek {
+    width: 50%;
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .header h1,
+  .header h2 {
+    margin-left: var(--space-s);
+  }
+
+  .profileImage {
+    width: 28rem;
+    height: 28rem;
+    right: 0;
+    top: 40%;
+  }
+
+  .firstSection-aboutMe .innerBox {
+    flex-direction: column;
+  }
+
+  .firstSection-aboutMe .aboutPopisek {
+    width: 100%;
+  }
+
+  .firstSection-aboutMe .aboutPopisek p {
+    margin-right: 0;
+  }
+
+  .firstSection-aboutMe .aboutPopisek ul {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: var(--space-xxl);
+  }
+
+  .firstSection-aboutMe .timeline {
+    width: 100%;
+  }
+
+  .firstSection-aboutMe .timelineCard {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header h1,
+  .header h2 {
+    font-size: var(--size-xl);
+  }
+
+  .header a {
+    padding-left: var(--space-xs2);
+    padding-right: var(--space-xs2);
+  }
+
+  .thirdSection-portfolio .portfolio {
+    flex-direction: column;
+  }
+
+  .thirdSection-portfolio .portfolioPopisek {
+    order: -1;
+  }
+
+  .portfolio .portfolioPopisek {
+    width: 100%;
+    align-items: center;
+    margin-bottom: var(--space-m);
+  }
+
+  .portfolioPopisek h4 {
+    margin-left: 0;
+  }
+
+  .portfolioPopisek ul {
+    padding-left: calc(var(--space-l) * 3);
+    padding-right: calc(var(--space-l) * 2);
+    width: 90%;
+  }
+
+  .portfolioMockups {
+    width: 100%;
+  }
+
+  .fourthSection-contact .contactPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  /* .header::after {
+    height: 100px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="%23ffffff" d="M0,144L48,136C96,128,192,112,288,106.7C384,101,480,96,576,96C672,96,768,106.7,864,120C960,133.3,1056,149.7,1152,154.7C1248,160,1344,149,1392,140L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom center;
+  } */
+
+  .innerBox {
+    width: 85%;
+  }
+
+  .header {
+    height: 50rem;
+  }
+
+  .header h1,
+  .header h2 {
+    font-size: var(--size-l);
+    margin-left: 0;
+  }
+
+  .header .innerBox {
+    margin-top: var(--space-xxxl);
+  }
+
+  .header .innerBox .links {
+    display: none;
+  }
+
+  .header .headerIcons {
+    flex-direction: row;
+    justify-content: end;
+    width: 85%;
+  }
+  
+  .profileImage {
+    width: 23rem;
+    height: 23rem;
+    top: 45%;
+  }
+
+  #profileImage {
+    width: 23rem;
+  }
+
+  .firstSection-aboutMe h3 {
+    top: -10rem;
+  }
+
+  .firstSection-aboutMe h3,
+  .secondSection-skills h3,
+  .thirdSection-portfolio h3,
+  .fourthSection-contact h3 {
+    font-size: var(--size-xl);
+  }
+
+  .firstSection-aboutMe .aboutPopisek p,
+  .firstSection-aboutMe .aboutPopisek li {
+    margin-top: var(--space-s);
+    font-size: var(--size-s2);
+  }
+
+  .firstSection-aboutMe .aboutPopisek h4 {
+    margin-bottom: var(--space-m);
+  }
+
+  .firstSection-aboutMe .aboutPopisek li {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .firstSection-aboutMe .timeline .timelineCard {
+    width: 80%;
+  }
+
+  .thirdSection-portfolio h3,
+  .fourthSection-contact h3 {
+    padding-top: 0;
+  }
+
+  .thirdSection-portfolio .portfolio {
+    padding-bottom: var(--space-xl);
+    margin-bottom: var(--space-xl);
+  }
+
+  .portfolioPopisek ul {
+    font-size: var(--size-s2);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .firstSection-aboutMe .aboutPopisek ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    height: 40rem;
+  }
+
+  .header .innerBox .about {
+    padding-top: 0;
+  }
+
+  .header .innerBox {
+    position: relative;
+  }
+
+  .header h1,
+  .header h2 {
+    position: absolute;
+  }
+
+  .header h1 {
+    top: -60px;
+  }
+
+  .header h2 {
+    top: 0;
+  }
+
+  .profileImage {
+    width: 20rem;
+    height: 20rem;
+    margin-top: var(--space-m);
+  }
+
+  #profileImage {
+    width: 20rem;
+  }
+
+  .firstSection-aboutMe h3 {
+    top: -13rem;
+  }
+
+  .firstSection-aboutMe .aboutPopisek p {
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (max-width: 630px) {
+  .firstSection-aboutMe .aboutPopisek ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .firstSection-aboutMe .timeline .timelineCard {
+    width: 90%;
+  }
+
+  .profileImage {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  #profileImage {
+    width: 18rem;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .header {
+    height: 45rem;
+  }
+
+  .profileImage {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #profileImage {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .firstSection-aboutMe h3,
+  .secondSection-skills h3,
+  .thirdSection-portfolio h3,
+  .fourthSection-contact h3 {
+    font-size: var(--size-l);
+  }
+
+  .firstSection-aboutMe .aboutPopisek h4 {
+    font-size: var(--size-m);
+  }
+
+  .firstSection-aboutMe .aboutPopisek p,
+  .firstSection-aboutMe .aboutPopisek li,
+  .thirdSection-portfolio .portfolioPopisek ul  {
+    font-size: var(--size-s);
+  }
+
+  .thirdSection-portfolio h3 {
+    margin-bottom: var(--space-xl);
+  }
+
+  .portfolioPopisek h4 {
+    font-size: var(--size-m);
+  }
+
+  .firstSection-aboutMe .aboutPopisek ul {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolioPopisek ul {
+    padding-left: calc(var(--space-l) * 3);
+    padding-right: calc(var(--space-l) * 2.5);
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .firstSection-aboutMe .timeline .timelineCard {
+    width: 100%;
+  }
+
+  .secondSection-skills .innerBox ul {
+    display: block;
+    margin-top: var(--space-m);
+    font-size: var(--size-s);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-xxl);
+    row-gap: var(--space-xs);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  .firstSection-aboutMe .aboutPopisek ul {
+    grid-template-columns: 1fr;
+  }
+
+  .secondSection-skills .innerBox ul {
+    grid-template-columns: 1fr;
+  }
+}

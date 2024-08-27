@@ -28,6 +28,7 @@
     margin-right: var(--space-m);
     margin-bottom: var(--space-m);
     transition: all 0.25s ease-in-out;
+    text-align: center;
 }
 
 .mainCard::before {
@@ -54,4 +55,46 @@
     color: var(--grey-color);
     padding: 0 var(--space-s);
     z-index: 3;
+}
+
+@media only screen and (max-width: 900px) {
+    .mainCard,
+    .mainCard::before,
+    .mainCard::after {
+        width: 200px;
+        margin-right: var(--space-xs);
+        margin-left: var(--space-xs);
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .mainCard,
+    .mainCard::before,
+    .mainCard::after {
+        width: 160px;
+    }
+
+    .mainCard p {
+        font-size: var(--size-s2);
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .mainCard,
+    .mainCard::before,
+    .mainCard::after {
+        width: 140px;
+    }
+
+    .mainCard p {
+        font-size: var(--size-s);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mainCard {
+        display: none;
+    }
 }

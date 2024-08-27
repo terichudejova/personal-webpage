@@ -112,7 +112,7 @@ function App() {
             <ul>
               <li>Cestování</li>
               <li>Přechody hor</li>
-              <li>Sport</li>
+              <li>Sportování</li>
               <li>Vaření a pečení</li>
               <li>Točení receptů</li>
               <li>Filmy a seriály</li>
@@ -130,6 +130,24 @@ function App() {
       <div className="secondSection-skills outerBox">
         <div className='innerBox'>
           <h3 id='linkDovednosti'>Dovednosti</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>Git & GitHub</li>
+            <li>EPC</li>
+            <li>SSMS</li>
+            <li>MS Office</li>
+            <li>Visual Studio</li>
+            <li>Visual Code</li>
+            <li>Lightroom</li>
+            <li>Canva</li>
+            <li>Procreate</li>
+            <li>Copywriting</li>
+          </ul>
           <div className="skills">
             <DashCard skill={"HTML5"}/>
             <DashCard skill={"CSS3"}/>
