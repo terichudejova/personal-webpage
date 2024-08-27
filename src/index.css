@@ -1017,7 +1017,7 @@
   .firstSection-aboutMe .aboutPopisek p,
   .firstSection-aboutMe .aboutPopisek li,
   .portfolioPopisek ul {
-    font-size: var(--size-xs);
+    font-size: var(--size-s);
   }
 
 }
