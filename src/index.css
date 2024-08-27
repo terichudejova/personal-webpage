@@ -1014,6 +1014,12 @@
     margin-top: 0;
   }
 
+  .firstSection-aboutMe .aboutPopisek p,
+  .firstSection-aboutMe .aboutPopisek li,
+  .thirdSection-portfolio .portfolioPopisek ul  {
+    font-size: var(--size-s);
+  }
+
 }
 
 @media only screen and (max-width: 630px) {
@@ -1061,12 +1067,6 @@
 
   .firstSection-aboutMe .aboutPopisek h4 {
     font-size: var(--size-m);
-  }
-
-  .firstSection-aboutMe .aboutPopisek p,
-  .firstSection-aboutMe .aboutPopisek li,
-  .thirdSection-portfolio .portfolioPopisek ul  {
-    font-size: var(--size-s);
   }
 
   .thirdSection-portfolio h3 {
