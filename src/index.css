@@ -959,7 +959,7 @@
     margin-bottom: var(--space-xl);
   }
 
-  .portfolioPopisek ul {
+  .thirdSection-portfolio .portfolioPopisek ul {
     font-size: var(--size-s2);
   }
 }
@@ -1023,6 +1023,23 @@
 }
 
 @media only screen and (max-width: 630px) {
+  .header {
+    height: 50rem;
+  }
+
+  .header h1 {
+    top: 0;
+  }
+
+  .header h2 {
+    top: 60px;
+  }
+
+  .profileImage {
+    margin-top: calc(var(--space-m) * 3 );
+  }
+
+
   .firstSection-aboutMe .aboutPopisek ul {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1030,16 +1047,6 @@
   .firstSection-aboutMe .timeline .timelineCard {
     width: 90%;
   }
-
-  .profileImage {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  #profileImage {
-    width: 18rem;
-  }
-
 }
 
 @media only screen and (max-width: 550px) {
@@ -1085,9 +1092,26 @@
     padding-left: calc(var(--space-l) * 3);
     padding-right: calc(var(--space-l) * 2.5);
   }
+}
 
+@media only screen and (max-width: 420px) {
+  .header h1,
+  .header h2 {
+    font-size: var(--size-m);
+  }
+
+  .profileImage {
+    width: 14rem;
+    height: 14rem;
+    margin-top: calc(var(--space-m) * 3);
+  }
+
+  #profileImage {
+    width: 14rem;
+  }
 
 }
+
 
 @media only screen and (max-width: 400px) {
 
@@ -1107,6 +1131,15 @@
 }
 
 @media only screen and (max-width: 350px) {
+  .profileImage {
+    width: 13rem;
+    height: 13rem;
+    margin-top: calc(var(--space-m) * 3);
+  }
+
+  #profileImage {
+    width: 13rem;
+  }
 
   .firstSection-aboutMe .aboutPopisek ul {
     grid-template-columns: 1fr;
