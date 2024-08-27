@@ -223,7 +223,7 @@ function App() {
                   <li>CSS animace</li>
                   <li>Využití JavaScriptu, Reactu</li>
                   <br/>
-                  <a href='https://unsplash.com/' target='_isBlank'><span><li>© fotky: Unsplash</li></span></a>
+                  <li><a href='https://unsplash.com/' target='_isBlank'><span>© fotky: Unsplash</span></a></li>
                 </ul>
             </div>
           </div>

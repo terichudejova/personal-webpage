@@ -959,7 +959,7 @@
     margin-bottom: var(--space-xl);
   }
 
-  .thirdSection-portfolio .portfolioPopisek ul {
+  .portfolioPopisek ul {
     font-size: var(--size-s2);
   }
 }
@@ -1016,7 +1016,7 @@
 
   .firstSection-aboutMe .aboutPopisek p,
   .firstSection-aboutMe .aboutPopisek li,
-  .thirdSection-portfolio .portfolioPopisek ul  {
+  .portfolioPopisek ul {
     font-size: var(--size-s);
   }
 
