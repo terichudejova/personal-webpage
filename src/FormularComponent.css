@@ -90,3 +90,20 @@
     margin-bottom: var(--space-xs);
     color: var(--hover-color);
   }
+
+
+
+
+  @media only screen and (min-width: 2000px) {
+    .formularObject {
+      height: 45rem;
+    }
+
+    .label {
+      font-size: var(--size-m);
+    }
+
+    .formularButton {
+      font-size: var(--size-m);
+    }
+  }

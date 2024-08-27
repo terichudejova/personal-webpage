@@ -515,7 +515,7 @@
 }
 
 .portfolio .portfolioPopisek {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -617,6 +617,7 @@
 }
 
 .fourthSection-contact .contactPage {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -666,10 +667,101 @@
 
 
 /* RESPONSIVITA */
+/* Větší obrazovky */
+@media only screen and (min-width: 1800px) {
+  .innerBox {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .innerBox {
+    width: 65%;
+  }
+
+  .header {
+    height: 60rem;
+  }
+
+  .header h1,
+  .header h2 {
+      font-size: calc(var(--size-l) * 2);
+  }
+
+  .header ul {
+    font-size: var(--size-s);
+  }
+
+  .profileImage {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .header a {
+    font-size: var(--size-l);
+  }
+
+  .firstSection-aboutMe h3,
+  .secondSection-skills h3,
+  .thirdSection-portfolio h3,
+  .fourthSection-contact h3 {
+    font-size: var(--size-xxxl);
+  }
+
+  .firstSection-aboutMe p,
+  .firstSection-aboutMe ul li,
+  .firstSection-aboutMe h4,
+  .secondSection-skills p,
+  .thirdSection-portfolio ul li {
+    font-size: var(--size-l);
+  }
+
+  .firstSection-aboutMe .aboutPopisek h4 {
+    font-size: var(--size-xl);
+  }
+
+  .firstSection-aboutMe .timeline {
+    width: 50%;
+  }
+
+  .thirdSection-portfolio a h4 {
+    font-size: var(--size-xl);
+  }
+
+  .footer p {
+    font-size: var(--size-s);
+  }
+
+
+}
+
+@media only screen and (min-width: 2200px) {
+  .innerBox {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  .innerBox {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  .innerBox {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  .innerBox {
+    width: 45%;
+  }
+}
 
 
 /* Media query for screens up to 900px */
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .header::after {
     height: 100px; /* Reduced height for medium screens */
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="%23ffffff" d="M0,144L48,136C96,128,192,112,288,106.7C384,101,480,96,576,96C672,96,768,106.7,864,120C960,133.3,1056,149.7,1152,154.7C1248,160,1344,149,1392,140L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom center;

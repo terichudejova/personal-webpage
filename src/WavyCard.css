@@ -132,3 +132,23 @@
       transform: rotate(360deg);
     }
   }
+
+
+
+
+  @media only screen and (min-width: 2000px) {
+    .e-card {
+      height: 45rem;
+      width: 35rem;
+    }
+
+    .infotop p,
+    .infotop h4 {
+      font-size: var(--size-m);
+    }
+
+    .infotop img {
+      width: 130px;
+      height: 130px;
+    }
+  }

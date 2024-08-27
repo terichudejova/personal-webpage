@@ -53,3 +53,20 @@
     bottom: unset;
     transition-duration: 0.3s;
   }
+
+
+
+  @media only screen and (min-width: 2000px) {
+    .homeRolloutButton {
+      width: 60px;
+      height: 60px;
+    }
+
+    .homeRolloutIcon {
+      font-size: 35px !important; 
+    }
+
+    .homeRolloutButton:hover::before {
+      font-size: var(--size-m);
+    }
+  }

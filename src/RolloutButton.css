@@ -51,3 +51,20 @@
     bottom: unset;
     transition-duration: 0.3s;
   }
+
+
+
+  @media only screen and (min-width: 2000px) {
+    .rolloutButton {
+      width: 60px;
+      height: 60px;
+    }
+
+    .rolloutIcon {
+      font-size: 25px !important; 
+    }
+
+    .rolloutButton:hover::before {
+      font-size: var(--size-m);
+    }
+  }
