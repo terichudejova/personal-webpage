@@ -1,10 +1,10 @@
 
-.rolloutButton {
+.homeRolloutButton {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: var(--second-color);
-    border: white 1px solid;
+    border: none;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -14,15 +14,17 @@
     transition-duration: 0.3s;
     overflow: hidden;
     position: relative;
+    margin-bottom: var(--space-s);
+    border: white 1px solid;
   }
   
-  .rolloutIcon {
-    font-size: 20px !important; 
+  .homeRolloutIcon {
+    font-size: 30px !important; 
     color: var(--hover-color);
     transition-duration: 0.3s;
   }
   
-  .rolloutButton:hover {
+  .homeRolloutButton:hover {
     width: 140px;
     border-radius: 50px;
     border: 1px solid white;
@@ -31,20 +33,20 @@
     animation: gradient 5s ease infinite;
   }
   
-  .rolloutButton:hover .rolloutIcon {
+  .homeRolloutButton:hover .homeRolloutIcon {
     transform: translateY(-200%);
   }
   
-  .rolloutButton::before {
+  .homeRolloutButton::before {
     position: absolute;
     bottom: -20px;
-    content: "Kontaktuj mě";
+    content: "Domů";
     color: var(--hover-color);
     font-size: 0;
     transition-duration: 0.3s;
   }
   
-  .rolloutButton:hover::before {
+  .homeRolloutButton:hover::before {
     font-size: var(--size-s);
     font-weight: 400;
     opacity: 1;

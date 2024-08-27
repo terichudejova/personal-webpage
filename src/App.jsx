@@ -15,6 +15,7 @@ import CardSkills from './CardSkills';
 import DashCard from "./DashCard";
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import FormularComponent from './FormularComponent'
+import HomeButton from './HomeButton'
 
 
 
@@ -28,7 +29,7 @@ function App() {
       <div className='header outerBox'>
         <div className="gradient-bg"></div>
         <div className='headerIcons'>
-          <a href='#mainContainer'><button><HomeIcon className='homeIcon'/></button></a>
+          <a href='#mainContainer'><HomeButton /></a>
           <a href='#linkContact'><RolloutButton /></a>
         </div>
           <div className="innerBox">
