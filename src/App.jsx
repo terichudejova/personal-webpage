@@ -217,8 +217,8 @@ function App() {
                   <li>Zaměření se na funkcionalitu</li>
                   <li>Naprogramovaná kalkulačka na vypočítání BMR využívající např. toggler</li>
                   <li>Responsivní web-design</li>
-                  <li>CSS animace</li>
-                  <li>Využití JavaScriptu, Reactu</li>
+                  <li><span>CSS animace</span></li>
+                  <li><a>Využití JavaScriptu, Reactu</a></li>
                   <br/>
                   <li><a href='https://unsplash.com/' target='_isBlank'><span>© fotky: Unsplash</span></a></li>
                 </ul>
