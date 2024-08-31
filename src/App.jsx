@@ -184,7 +184,7 @@ function App() {
                   <li>Foto carousel</li>
                   <li>Integrovaná mapa</li>
                   <br/>
-                  <a href='https://www.instagram.com/staraskola_elpida/' target='_isBlank'><li><span>© fotky + logo: Instagram kavárny</span></li></a>
+                  <a href='https://www.instagram.com/staraskola_elpida/' target='_isBlank'><span><li>© fotky + logo: Instagram kavárny</li></span></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
@@ -202,7 +202,7 @@ function App() {
                   <li>Integrovaný formulář</li>
                   <li>Integrovaná mapa</li>
                   <br/>
-                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_isBlank'><li><span>© fotky: Freepik</span></li></a>
+                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_isBlank'><span><li>© fotky: Freepik</li></span></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
@@ -220,7 +220,7 @@ function App() {
                   <li>CSS animace</li>
                   <li>Využití JavaScriptu, Reactu</li>
                   <br/>
-                  <a href='https://unsplash.com/' target='_isBlank'><li><span>© fotky: Unsplash</span></li></a>
+                  <a href='https://unsplash.com/' target='_isBlank'><span><li>© fotky: Unsplash</li></span></a>
                 </ul>
             </div>
           </div>
