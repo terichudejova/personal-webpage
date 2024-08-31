@@ -118,9 +118,6 @@ function App() {
               <ArrowBackIosIcon id="arrowDown"/>
               {/* <div className='timelineCircle'></div> */}
             </div>
-          <svg id='splash' width="100%" height="80%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
-            <path d="M300,50 C250,90 150,70 100,150 C50,230 120,280 150,350 C180,420 280,420 320,380 C360,340 460,360 480,300 C500,240 400,220 400,150 C400,80 350,10 300,50 Z" fill="#1698CB" />
-          </svg>
         </div>
       </div>
 
