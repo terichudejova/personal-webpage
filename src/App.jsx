@@ -58,6 +58,7 @@ function App() {
         <div className='innerBox'>
           <div className='aboutPopisek'>
             <h3 id='linkOmne'>O mně</h3>
+            <p>Lalalalallla</p>
             <p>Jmenuji se Tereza Chudějová&nbsp;a jsem front-end developerka&nbsp;s IT základy získanými během studia&nbsp;na vysoké škole&nbsp;a vášní pro vytváření moderních, uživatelsky přívětivých webových stránek. Mám bakalářský titul&nbsp;z Aplikované informatiky&nbsp;a inženýrský titul&nbsp;z Informačního managementu, což mi poskytuje technické znalosti&nbsp;a schopnost <span>propojit různé aspekty vývoje, designu&nbsp;a firemních potřeb</span>. Po 5 letech práce jako datový analytik jsem se rozhodla následovat svou vášeň pro kreativní řešení&nbsp;a začala se intenzivně věnovat front-end vývoji, kde mohu <span>spojit logické myšlení&nbsp;s estetikou&nbsp;a designem</span>.</p>
             <h4>Záliby</h4>
             <ul>
@@ -184,7 +185,7 @@ function App() {
                   <li>Foto carousel</li>
                   <li>Integrovaná mapa</li>
                   <br/>
-                  <a href='https://www.instagram.com/staraskola_elpida/' target='_isBlank'><span><li>© fotky + logo: Instagram kavárny</li></span></a>
+                  <a href='https://www.instagram.com/staraskola_elpida/' target='_isBlank'><li><span>© fotky + logo: Instagram kavárny</span></li></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
@@ -202,7 +203,7 @@ function App() {
                   <li>Integrovaný formulář</li>
                   <li>Integrovaná mapa</li>
                   <br/>
-                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_isBlank'><span><li>© fotky: Freepik</li></span></a>
+                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_isBlank'><li><span>© fotky: Freepik</span></li></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
@@ -217,10 +218,10 @@ function App() {
                   <li>Zaměření se na funkcionalitu</li>
                   <li>Naprogramovaná kalkulačka na vypočítání BMR využívající např. toggler</li>
                   <li>Responsivní web-design</li>
-                  <li><span>CSS animace</span></li>
-                  <li><a>Využití JavaScriptu, Reactu</a></li>
+                  <li>CSS animace</li>
+                  <li>Využití JavaScriptu, Reactu</li>
                   <br/>
-                  <li><a href='https://unsplash.com/' target='_isBlank'><span>© fotky: Unsplash</span></a></li>
+                  <a href='https://unsplash.com/' target='_isBlank'><li><span>© fotky: Unsplash</span></li></a>
                 </ul>
             </div>
           </div>
