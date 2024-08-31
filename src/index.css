@@ -945,7 +945,7 @@
 
 @media only screen and (max-width: 700px) {
   .header {
-    height: 40rem;
+    height: 43rem;
   }
 
   .header .innerBox .about {
@@ -997,47 +997,14 @@
 
 @media only screen and (max-width: 630px) {
   .header {
-    height: 50rem;
+    height: 40rem;
   }
 
-  .header h1 {
-    top: 0;
-  }
-
+  .header h1,
   .header h2 {
-    top: 60px;
+    font-size: var(--size-m);
   }
 
-  .profileImage {
-    margin-top: calc(var(--space-m) * 3 );
-  }
-
-
-  .firstSection-aboutMe .aboutPopisek ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .firstSection-aboutMe .timeline .timelineCard {
-    width: 90%;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .header {
-    height: 45rem;
-  }
-
-  .profileImage {
-    width: 15rem;
-    height: 15rem;
-  }
-
-  #profileImage {
-    width: 15rem;
-  }
-}
-
-@media only screen and (max-width: 450px) {
   .firstSection-aboutMe h3,
   .secondSection-skills h3,
   .thirdSection-portfolio h3,
@@ -1057,6 +1024,71 @@
     font-size: var(--size-m);
   }
 
+  .profileImage {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  #profileImage {
+    width: 18rem;
+  }
+
+  .firstSection-aboutMe .aboutPopisek ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .firstSection-aboutMe .timeline .timelineCard {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .header {
+    height: 45rem;
+  }
+
+  .profileImage {
+    margin-top: var(--space-xl);
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header .headerIcons {
+    top: var(--space-xs2);
+    left: -20px;
+    width: 100%;
+  }
+
+  .header h1 {
+    top: -35px;
+  }
+
+  .header h2 {
+    top: 15px;
+  }
+
+  .profileImage {
+    width: 15rem;
+    height: 15rem;
+    margin-top: var(--space-xxl);
+    border: 2px solid var(--main-color);
+  }
+
+  #profileImage {
+    width: 15rem;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .firstSection-aboutMe .innerBox {
+    padding-bottom: var(--space-xl);
+  }
+
+  .thirdSection-portfolio {
+    margin-top: var(--space-l);
+  }
+
   .firstSection-aboutMe .aboutPopisek ul {
     grid-template-columns: 1fr 1fr;
   }
@@ -1067,34 +1099,21 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
-  .header h1,
-  .header h2 {
-    font-size: var(--size-m);
-  }
-
-  .profileImage {
-    width: 14rem;
-    height: 14rem;
-    margin-top: calc(var(--space-m) * 3);
-  }
-
-  #profileImage {
-    width: 14rem;
-  }
-
-}
 
 
 @media only screen and (max-width: 400px) {
-
   .firstSection-aboutMe .timeline .timelineCard {
     width: 100%;
+  }
+
+  .secondSection-skills .skills {
+    display: none;
   }
 
   .secondSection-skills .innerBox ul {
     display: block;
     margin-top: var(--space-m);
+    margin-bottom: var(--space-xxl);
     font-size: var(--size-s);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1104,15 +1123,7 @@
 }
 
 @media only screen and (max-width: 350px) {
-  .profileImage {
-    width: 13rem;
-    height: 13rem;
-    margin-top: calc(var(--space-m) * 3);
-  }
 
-  #profileImage {
-    width: 13rem;
-  }
 
   .firstSection-aboutMe .aboutPopisek ul {
     grid-template-columns: 1fr;

@@ -68,3 +68,22 @@
       font-size: var(--size-m);
     }
   }
+
+  @media only screen and (max-width: 580px) {
+    .rolloutButton {
+      width: 40px;
+      height: 40px;
+    }
+
+    .rolloutIcon {
+      font-size: 18px !important; 
+    }
+
+    .rolloutButton:hover {
+      width: 120px;
+    }
+
+    .rolloutButton:hover::before {
+      font-size: var(--size-xs);
+    }
+  }
