@@ -906,7 +906,7 @@
 
   .firstSection-aboutMe .aboutPopisek p {
     margin-top: var(--space-s);
-    font-size: var(--size-s2);
+    font-size: var(--size-xs);
     color: red;
   }
 
@@ -934,7 +934,7 @@
   }
 
   .portfolioPopisek ul {
-    font-size: var(--size-s2);
+    font-size: var(--size-xs);
     color: red;
   }
 }
