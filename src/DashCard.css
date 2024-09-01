@@ -16,8 +16,6 @@
 }
 
 
-
-
 .mainCard,
 .mainCard::before,
 .mainCard::after {
@@ -94,8 +92,3 @@
     }
 }
 
-/* @media only screen and (max-width: 400px) {
-    .mainCard {
-        display: none;
-    }
-} */
