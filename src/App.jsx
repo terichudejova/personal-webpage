@@ -174,9 +174,9 @@ function App() {
         <div className='innerBox'>
           <h3 id='linkPortfolio'>Má práce</h3>
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><img className='portfolioMockups' src='images/kavarna_noBG.png'/></a>
+            <a href='https://terichudejova.github.io/kavarna/' target='_isBlank'><img className='portfolioMockups' src='images/kavarna_noBG.png'/></a>
             <div className='portfolioPopisek'>
-                <a href='https://terichudejova.github.io/first-webpage/#landingPage' target='_isBlank'><h4>Kavárna Stará škola <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <a href='https://terichudejova.github.io/kavarna/' target='_isBlank'><h4>Kavárna Stará škola <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Projekt organizace Elpida zaměstnávající seniory</li>
                   <li>Zaměření se na firemní identitu, barvy a cílovou skupinu</li>
