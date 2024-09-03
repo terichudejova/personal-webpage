@@ -145,7 +145,7 @@ function App() {
             <li>Procreate</li>
             <li>Copywriting</li>
           </ul>
-          <div className="skills">
+          {/* <div className="skills">
             <DashCard skill={"HTML5"}/>
             <DashCard skill={"CSS3"}/>
             <DashCard skill={"SQL"}/>
@@ -162,7 +162,7 @@ function App() {
             <DashCard skill={"Canva"}/>
             <DashCard skill={"Procreate"}/>
             <DashCard skill={"Copywriting"}/>
-          </div>
+          </div> */}
         </div>
       </div>
 
