@@ -74,20 +74,21 @@ function App() {
               <div className="timelineLine"></div> */}
               <div className="timelineFirst timelineCard">
                 <div id="kpmgIcon" className='iconCircle'><EqualizerIcon className='iconInside'/></div>
-                <h4>10/2018 - 09/2023</h4>
-                <p>Datový analytik v KPMG ČR s.r.o.</p>
+                <h4>07/2024</h4>
+                <p>Git & GitHub kurz</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineSecond timelineCard">
                 <div id="bcIcon" className='iconCircle'><SchoolIcon className='iconInside'/></div>
-                <h4>06/2021</h4>
-                <p><span>Bc.</span> - Aplikovaná informatika, FIS VŠE</p>
+                <h4>06/2024</h4>
+                <p>React kurz</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineThird timelineCard">
                 <div id="htmlIcon" className='iconCircle'><CodeIcon className='iconInside'/></div>
-                <h4>10/2023</h4>
-                <p>HTML5/CSS3 kurz</p>
+                <h4>05/2024</h4>
+                <p id='komercka'><span>Ing.</span> - Informační management, FIS VŠE</p>
+                <p>+ VS Komerční komunikace</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineFourth timelineCard">
@@ -98,21 +99,20 @@ function App() {
               <div className="timelineLine"></div>
               <div className="timelineFifth timelineCard">
                 <div id="ingIcon" className='iconCircle'><SchoolIcon className='iconInside'/></div>
-                <h4>05/2024</h4>
-                <p id='komercka'><span>Ing.</span> - Informační management, FIS VŠE</p>
-                <p>+ VS Komerční komunikace</p>
+                <h4>10/2023</h4>
+                <p>HTML5/CSS3 kurz</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineSixth timelineCard">
                 <div id="reactIcon" className='iconCircle'><AutoAwesomeIcon className='iconInside'/></div>
-                <h4>06/2024</h4>
-                <p>React kurz</p>
+                <h4>06/2021</h4>
+                <p><span>Bc.</span> - Aplikovaná informatika, FIS VŠE</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineSeventh timelineCard">
                 <div id="gitIcon" className='iconCircle'><GitHubIcon className='iconInside'/></div>
-                <h4>07/2024</h4>
-                <p>Git & GitHub kurz</p>
+                <h4>10/2018 - 09/2023</h4>
+                <p>Datový analytik v KPMG ČR s.r.o.</p>
               </div>
               <div className="timelineLine"></div>
               <ArrowBackIosIcon id="arrowDown"/>
