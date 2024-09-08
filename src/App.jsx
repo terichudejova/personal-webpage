@@ -208,6 +208,23 @@ function App() {
             <div className='dividingLine'></div>
           </div>
 
+          <div className='portfolio'>
+            <a href='https://terichudejova.github.io/wedding/' target='_isBlank'><img className='portfolioMockups' src='images/wedding_noBG.png'/></a>
+            <div className='portfolioPopisek'>
+                <a href='https://terichudejova.github.io/wedding/' target='_isBlank'><h4>Svatba Petra & Lucie <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <ul>
+                  <li>Webová stránka ohledně nadcházející svatby informující hosty</li>
+                  <li>Routování mezi jednotlivými podstránkami, ScrollToTop...</li>
+                  <li>Responsivní web-design</li>
+                  <li>Integrovaný formulář</li>
+                  <br/>
+                  <a href="https://unsplash.com/" target='_isBlank'><span><li>© fotka: Unsplash</li></span></a>
+                  <a href="https://www.canva.com/" target='_isBlank'><span><li>© ilustrace: Canva</li></span></a>
+                </ul>
+            </div>
+            <div className='dividingLine'></div>
+          </div>
+
 
           <div className='portfolio'>
             <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><img className='portfolioMockups' src='images/kalkulacka_noBG.png'/></a>
