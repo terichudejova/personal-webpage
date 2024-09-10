@@ -82,7 +82,7 @@ function App() {
               <div className="timelineLine"></div>
               <div className="timelineCard">
                 <h4>05/2024</h4>
-                <p id='komercka'><span>Ing.</span> - Informační management, FIS VŠE</p>
+                <p id='komercka'><span>Ing.</span> - Informační management, FIS&nbsp;VŠE</p>
                 <p>+ VS Komerční komunikace</p>
               </div>
               <div className="timelineLine"></div>
@@ -98,17 +98,17 @@ function App() {
               <div className="timelineLine"></div>
               <div className="timelineCard">
                 <h4>06/2021</h4>
-                <p><span>Bc.</span> - Aplikovaná informatika, FIS VŠE</p>
+                <p><span>Bc.</span> - Aplikovaná informatika, FIS&nbsp;VŠE</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineCard">
                 <h4>04/2019 - 11/2019</h4>
-                <p>Copywriter & content creator v Monfit Health s.r.o.</p>
+                <p>Copywriter & content creator v Monfit&nbsp;Health&nbsp;s.r.o.</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineCard">
                 <h4>10/2018 - 09/2023</h4>
-                <p>Datový analytik v <span>KPMG ČR s.r.o.</span></p>
+                <p>Datový analytik v <span>KPMG&nbsp;ČR&nbsp;s.r.o.</span></p>
               </div>
               <div className="timelineLine"></div>
               <ArrowBackIosIcon id="arrowDown"/>
