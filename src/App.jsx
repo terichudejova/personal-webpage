@@ -134,10 +134,10 @@ function App() {
             <li>JavaScript</li>
             <li>React</li>
             <li>Bootstrap</li>
+            <li>Sass/SCSS</li>
             <li>Git & GitHub</li>
             <li>EPC</li>
             <li>SSMS</li>
-            <li>MS Office</li>
             <li>Visual Studio</li>
             <li>Visual Code</li>
             <li>Lightroom</li>
