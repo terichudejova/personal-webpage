@@ -65,7 +65,7 @@ function App() {
               <li>Přechody hor</li>
               <li>Sportování</li>
               <li>Vaření a pečení</li>
-              <li>Točení receptů</li>
+              <li>Tvorba videoreceptů</li>
               <li>Filmy a seriály</li>
             </ul>
           </div>

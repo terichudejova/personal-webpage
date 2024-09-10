@@ -29,6 +29,11 @@
   background-color: #e7f4fc;
 }
 
+.inputStyle:focus {
+  border: 1px solid var(--hover-color);
+  outline: none;
+}
+
 
 /* Styling textArea (zpráva) */
 .textArea {
@@ -40,6 +45,11 @@
   min-height: 100px;
   box-sizing: border-box;
   background-color: #e7f4fc;
+}
+
+.textArea:focus {
+  border: 1px solid var(--hover-color);
+  outline: none;
 }
 
 
