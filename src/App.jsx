@@ -103,12 +103,12 @@ function App() {
               <div className="timelineLine"></div>
               <div className="timelineCard">
                 <h4>04/2019 - 11/2019</h4>
-                <p>Copywriter & content creator v Monfit&nbsp;Health&nbsp;s.r.o.</p>
+                <p>Copywriter & content creator v&nbsp;Monfit&nbsp;Health&nbsp;s.r.o.</p>
               </div>
               <div className="timelineLine"></div>
               <div className="timelineCard">
                 <h4>10/2018 - 09/2023</h4>
-                <p>Datový analytik v <span>KPMG&nbsp;ČR&nbsp;s.r.o.</span></p>
+                <p>Datový analytik v&nbsp;<span>KPMG&nbsp;ČR&nbsp;s.r.o.</span></p>
               </div>
               <div className="timelineLine"></div>
               <ArrowBackIosIcon id="arrowDown"/>
