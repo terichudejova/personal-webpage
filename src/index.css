@@ -351,27 +351,7 @@
   color: var(--hover-color);
 }
 
-#kpmgIcon,
-#htmlIcon,
-#ingIcon,
-#gitIcon {
-  top: -30%;
-  right: -2%;
-  transform: rotate(10deg);
-}
 
-#bcIcon,
-#jsIcon,
-#reactIcon {
-  left: -2%;
-  top: -30%;
-  transform: rotate(-10deg);
-}
-
-#bcIcon,
-#ingIcon {
-  color: var(--purple-color);
-}
 
 
 
@@ -661,16 +641,8 @@
 
 /* RESPONSIVITA */
 /* Větší obrazovky */
-@media only screen and (min-width: 1800px) {
-  .innerBox {
-    width: 70%;
-  }
-}
 
 @media only screen and (min-width: 2000px) {
-  .innerBox {
-    width: 65%;
-  }
 
   .header {
     height: 60rem;
@@ -731,25 +703,25 @@
 
 @media only screen and (min-width: 2200px) {
   .innerBox {
-    width: 60%;
+    width: 75%;
   }
 }
 
 @media only screen and (min-width: 2400px) {
   .innerBox {
-    width: 55%;
+    width: 70%;
   }
 }
 
 @media only screen and (min-width: 2600px) {
   .innerBox {
-    width: 50%;
+    width: 65%;
   }
 }
 
 @media only screen and (min-width: 2800px) {
   .innerBox {
-    width: 45%;
+    width: 60%;
   }
 }
 
@@ -758,6 +730,14 @@
 
 /* Menší obrazovky */
 @media only screen and (max-width: 1400px) {
+  .firstSection-aboutMe .aboutPopisek {
+    width: 50%;
+  }
+
+  .timeline {
+    width: 50%;
+  }
+
   .secondSection-skills .skills {
     display: flex;
     flex-direction: row;
