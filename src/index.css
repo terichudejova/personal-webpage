@@ -759,6 +759,12 @@
   }
 }
 
+@media only screen and (max-width: 1400px) {
+  .secondSection-skills .innerBox ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .header h1,
   .header h2 {
@@ -913,8 +919,8 @@
   }
 
   .secondSection-skills .innerBox ul {
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: var(--space-s);
+    grid-template-columns: 1fr 1fr;
+    column-gap: calc(var(--space-l) * 3);
   }
 
   .thirdSection-portfolio h3,
@@ -983,16 +989,15 @@
     margin-top: 0;
   }
 
+  .secondSection-skills .innerBox ul {
+    row-gap: var(--space-s);
+  }
+  
   .firstSection-aboutMe .aboutPopisek p,
   .firstSection-aboutMe .aboutPopisek li,
   .portfolioPopisek ul,
   .secondSection-skills .innerBox ul {
     font-size: var(--size-s);
-  }
-
-  .secondSection-skills .innerBox ul {
-    grid-template-columns: 1fr 1fr;
-    column-gap: calc(var(--space-l) * 3);
   }
 
 }
@@ -1042,6 +1047,10 @@
   .firstSection-aboutMe .timeline .timelineCard {
     width: 90%;
   }
+
+  .secondSection-skills .innerBox ul {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -1051,10 +1060,6 @@
 
   .profileImage {
     margin-top: var(--space-xl);
-  }
-
-  .secondSection-skills .innerBox ul {
-    column-gap: calc(var(--space-l) * 2);
   }
 }
 
@@ -1111,25 +1116,10 @@
   .firstSection-aboutMe .timeline .timelineCard {
     width: 100%;
   }
-
-  .secondSection-skills .skills {
-    display: none;
-  }
-
-
-  .secondSection-skills .innerBox ul {
-    column-gap: var(--space-xxl);
-  }
 }
 
 @media only screen and (max-width: 350px) {
-
-
   .firstSection-aboutMe .aboutPopisek ul {
-    grid-template-columns: 1fr;
-  }
-
-  .secondSection-skills .innerBox ul {
     grid-template-columns: 1fr;
   }
 }

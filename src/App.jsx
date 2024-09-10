@@ -125,12 +125,15 @@ function App() {
           <ul>
             <li>HTML5</li>
             <li>CSS3</li>
-            <li>SQL</li>
             <li>JavaScript</li>
+            <li>Sass/SCSS</li>
+            <li>SQL</li>
             <li>React</li>
             <li>Bootstrap</li>
-            <li>Sass/SCSS</li>
             <li>Git & GitHub</li>
+            <li>Responsive webdesign</li>
+            <li>Client-side routing</li>
+            <li>CSS Grid / Flexbox</li>
             <li>EPC</li>
             <li>SSMS</li>
             <li>Visual Studio</li>
@@ -139,25 +142,8 @@ function App() {
             <li>Canva</li>
             <li>Procreate</li>
             <li>Copywriting</li>
+            <li>Anglický jazyk</li>
           </ul>
-          {/* <div className="skills">
-            <DashCard skill={"HTML5"}/>
-            <DashCard skill={"CSS3"}/>
-            <DashCard skill={"SQL"}/>
-            <DashCard skill={"JavaScript"}/>
-            <DashCard skill={"React"}/>
-            <DashCard skill={"Bootstrap"}/>
-            <DashCard skill={"Git & GitHub"}/>
-            <DashCard skill={"EPC"}/>
-            <DashCard skill={"SSMS"}/>
-            <DashCard skill={"MS Office"}/>
-            <DashCard skill={"Visual Studio"}/>
-            <DashCard skill={"Visual Code"}/>
-            <DashCard skill={"Lightroom"}/>
-            <DashCard skill={"Canva"}/>
-            <DashCard skill={"Procreate"}/>
-            <DashCard skill={"Copywriting"}/>
-          </div> */}
         </div>
       </div>
 
