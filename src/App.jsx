@@ -126,10 +126,9 @@ function App() {
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
-            <li>Sass/SCSS</li>
+            <li>SCSS</li>
             <li>SQL</li>
             <li>React</li>
-            <li>Bootstrap</li>
             <li>Git & GitHub</li>
             <li>Responsive webdesign</li>
             <li>Client-side routing</li>
@@ -142,6 +141,7 @@ function App() {
             <li>Canva</li>
             <li>Procreate</li>
             <li>Copywriting</li>
+            <li>MS Office</li>
             <li>Anglický jazyk</li>
           </ul>
         </div>
@@ -154,6 +154,26 @@ function App() {
         <div className="thirdSection-portfolio outerBox">
         <div className='innerBox'>
           <h3 id='linkPortfolio'>Má práce</h3>
+
+          <div className='portfolio'>
+            <a href='https://terichudejova.github.io/data-vizor/' target='_isBlank'><img className='portfolioMockups' src='images/datavizor_noBG.png'/></a>
+            <div className='portfolioPopisek'>
+                <a href='https://terichudejova.github.io/data-vizor/' target='_isBlank'><h4>DataVizor (EN) <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <ul>
+                  <li>Imaginární firma nabízející cloudové služby pro analýzu, vizualizaci a reportování dat</li>
+                  <li>Routování mezi jednotlivými sekcemi</li>
+                  <li>Hooks (useState, useEffect, useLocation, useRef) </li>
+                  <li>Responzivní web-design</li>
+                  <li>Zaměření se na design</li>
+                  <li>Integrovaný formulář</li>
+                  <br/>
+                  <a href="https://unsplash.com/" target='_isBlank'><span><li>© fotky: Unsplash</li></span></a>
+                  <a href="https://www.canva.com/" target='_isBlank'><span><li>© ilustrace: Canva</li></span></a>
+                </ul>
+            </div>
+            <div className='dividingLine'></div>
+          </div>
+
           <div className='portfolio'>
             <a href='https://terichudejova.github.io/kavarna/' target='_isBlank'><img className='portfolioMockups' src='images/kavarna_noBG.png'/></a>
             <div className='portfolioPopisek'>
@@ -161,7 +181,7 @@ function App() {
                 <ul>
                   <li>Projekt organizace Elpida zaměstnávající seniory</li>
                   <li>Zaměření se na firemní identitu, barvy a cílovou skupinu</li>
-                  <li>Responsivní web-design</li>
+                  <li>Responzivní web-design</li>
                   <li>Foto carousel</li>
                   <li>Integrovaná mapa</li>
                   <br/>
@@ -178,7 +198,7 @@ function App() {
                 <ul>
                   <li>Imaginární IT firma nabízející služby založené na AI</li>
                   <li>Zaměření se na design</li>
-                  <li>Responsivní web-design</li>
+                  <li>Responzivní web-design</li>
                   <li>Animované komponenty</li>
                   <li>Integrovaný formulář</li>
                   <li>Integrovaná mapa</li>
@@ -195,8 +215,8 @@ function App() {
                 <a href='https://terichudejova.github.io/wedding/' target='_isBlank'><h4>Svatba Petra & Lucie <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Webová stránka ohledně nadcházející svatby informující hosty</li>
-                  <li>Routování mezi jednotlivými podstránkami, ScrollToTop...</li>
-                  <li>Responsivní web-design</li>
+                  <li>Routování mezi jednotlivými sekcemi, ScrollToTop...</li>
+                  <li>Responzivní web-design</li>
                   <li>Integrovaný formulář</li>
                   <br/>
                   <a href="https://unsplash.com/" target='_isBlank'><span><li>© fotka: Unsplash</li></span></a>
@@ -214,7 +234,7 @@ function App() {
                 <ul>
                   <li>Zaměření se na funkcionalitu</li>
                   <li>Naprogramovaná kalkulačka na vypočítání BMR využívající např. toggler</li>
-                  <li>Responsivní web-design</li>
+                  <li>Responzivní web-design</li>
                   <li>CSS animace</li>
                   <li>Využití JavaScriptu, Reactu</li>
                   <br/>
