@@ -156,9 +156,9 @@ function App() {
           <h3 id='linkPortfolio'>Má práce</h3>
 
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/data-vizor/' target='_isBlank'><img className='portfolioMockups' src='images/datavizor_noBG.png'/></a>
+            <a href='https://terichudejova.github.io/data-vizor/' target='_blank'><img className='portfolioMockups' src='images/datavizor_noBG.png'/></a>
             <div className='portfolioPopisek'>
-                <a href='https://terichudejova.github.io/data-vizor/' target='_isBlank'><h4>DataVizor (EN) <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <a href='https://terichudejova.github.io/data-vizor/' target='_blank'><h4>DataVizor (EN) <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Imaginární firma nabízející cloudové služby pro analýzu, vizualizaci a reportování dat</li>
                   <li>Routování mezi jednotlivými sekcemi</li>
@@ -167,17 +167,17 @@ function App() {
                   <li>Zaměření se na design</li>
                   <li>Integrovaný formulář</li>
                   <br/>
-                  <a href="https://unsplash.com/" target='_isBlank'><span><li>© fotky: Unsplash</li></span></a>
-                  <a href="https://www.canva.com/" target='_isBlank'><span><li>© ilustrace: Canva</li></span></a>
+                  <a href="https://unsplash.com/" target='_blank'><span><li>© fotky: Unsplash</li></span></a>
+                  <a href="https://www.canva.com/" target='_blank'><span><li>© ilustrace: Canva</li></span></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
           </div>
 
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/kavarna/' target='_isBlank'><img className='portfolioMockups' src='images/kavarna_noBG.png'/></a>
+            <a href='https://terichudejova.github.io/kavarna/' target='_blank'><img className='portfolioMockups' src='images/kavarna_noBG.png'/></a>
             <div className='portfolioPopisek'>
-                <a href='https://terichudejova.github.io/kavarna/' target='_isBlank'><h4>Kavárna Stará škola <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <a href='https://terichudejova.github.io/kavarna/' target='_blank'><h4>Kavárna Stará škola <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Projekt organizace Elpida zaměstnávající seniory</li>
                   <li>Zaměření se na firemní identitu, barvy a cílovou skupinu</li>
@@ -185,16 +185,16 @@ function App() {
                   <li>Foto carousel</li>
                   <li>Integrovaná mapa</li>
                   <br/>
-                  <a href='https://www.instagram.com/staraskola_elpida/' target='_isBlank'><span><li>© fotky + logo: Instagram kavárny</li></span></a>
+                  <a href='https://www.instagram.com/staraskola_elpida/' target='_blank'><span><li>© fotky + logo: Instagram kavárny</li></span></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
           </div>
           
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><img className='portfolioMockups' src='images/quantum_noBG.png'/></a>
+            <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_blank'><img className='portfolioMockups' src='images/quantum_noBG.png'/></a>
             <div className='portfolioPopisek'>
-                <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_isBlank'><h4>QuantumByte Solutions <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <a href='https://terichudejova.github.io/quantum-byte-solutions/' target='_blank'><h4>QuantumByte Solutions <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Imaginární IT firma nabízející služby založené na AI</li>
                   <li>Zaměření se na design</li>
@@ -203,24 +203,24 @@ function App() {
                   <li>Integrovaný formulář</li>
                   <li>Integrovaná mapa</li>
                   <br/>
-                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_isBlank'><span><li>© fotky: Freepik</li></span></a>
+                  <a href="https://www.freepik.com/log-in?client_id=freepik&lang=en" target='_blank'><span><li>© fotky: Freepik</li></span></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
           </div>
 
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/wedding/' target='_isBlank'><img className='portfolioMockups' src='images/wedding_noBG.png'/></a>
+            <a href='https://terichudejova.github.io/wedding/' target='_blank'><img className='portfolioMockups' src='images/wedding_noBG.png'/></a>
             <div className='portfolioPopisek'>
-                <a href='https://terichudejova.github.io/wedding/' target='_isBlank'><h4>Svatba Petra & Lucie <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <a href='https://terichudejova.github.io/wedding/' target='_blank'><h4>Svatba Petra & Lucie <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Webová stránka ohledně nadcházející svatby informující hosty</li>
                   <li>Routování mezi jednotlivými sekcemi, ScrollToTop...</li>
                   <li>Responzivní web-design</li>
                   <li>Integrovaný formulář</li>
                   <br/>
-                  <a href="https://unsplash.com/" target='_isBlank'><span><li>© fotka: Unsplash</li></span></a>
-                  <a href="https://www.canva.com/" target='_isBlank'><span><li>© ilustrace: Canva</li></span></a>
+                  <a href="https://unsplash.com/" target='_blank'><span><li>© fotka: Unsplash</li></span></a>
+                  <a href="https://www.canva.com/" target='_blank'><span><li>© ilustrace: Canva</li></span></a>
                 </ul>
             </div>
             <div className='dividingLine'></div>
@@ -228,9 +228,9 @@ function App() {
 
 
           <div className='portfolio'>
-            <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><img className='portfolioMockups' src='images/kalkulacka_noBG.png'/></a>
+            <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_blank'><img className='portfolioMockups' src='images/kalkulacka_noBG.png'/></a>
             <div className='portfolioPopisek'>
-                <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_isBlank'><h4>Kalorická Kalkulačka <ArrowOutwardIcon className='openWebIcon'/></h4></a>
+                <a href='https://terichudejova.github.io/kaloricka-kalkulacka/' target='_blank'><h4>Kalorická Kalkulačka <ArrowOutwardIcon className='openWebIcon'/></h4></a>
                 <ul>
                   <li>Zaměření se na funkcionalitu</li>
                   <li>Naprogramovaná kalkulačka na vypočítání BMR využívající např. toggler</li>
@@ -238,7 +238,7 @@ function App() {
                   <li>CSS animace</li>
                   <li>Využití JavaScriptu, Reactu</li>
                   <br/>
-                  <a href='https://unsplash.com/' target='_isBlank'><span><li>© fotky: Unsplash</li></span></a>
+                  <a href='https://unsplash.com/' target='_blank'><span><li>© fotky: Unsplash</li></span></a>
                 </ul>
             </div>
           </div>
