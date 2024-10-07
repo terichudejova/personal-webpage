@@ -133,6 +133,7 @@ function App() {
             <li>Responsive webdesign</li>
             <li>Client-side routing</li>
             <li>CSS Grid / Flexbox</li>
+            <li>REST API</li>
             <li>EPC</li>
             <li>SSMS</li>
             <li>Visual Studio</li>
@@ -141,10 +142,9 @@ function App() {
             <li>Canva</li>
             <li>Procreate</li>
             <li>Copywriting</li>
-            <li>MS Office</li>
             <li>Anglický jazyk</li>
           </ul>
-          <p>Některé z dovedností prezentuji v praktické ukázce <a href='https://www.linkedin.com/posts/tereza-chud%C4%9Bjov%C3%A1-b41986180_github-terichudejovasource-app-activity-7249023370892054529-BGVQ?utm_source=share&utm_medium=member_desktop' target='_blank'>ZDE.</a></p>
+          <p>Některé z dovedností prezentuji v praktické ukázce <a href='https://www.linkedin.com/posts/tereza-chud%C4%9Bjov%C3%A1-b41986180_github-terichudejovasource-app-activity-7249023370892054529-BGVQ?utm_source=share&utm_medium=member_desktop' target='_blank'>zde</a>.</p>
         </div>
       </div>
 
