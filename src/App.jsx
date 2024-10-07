@@ -144,6 +144,7 @@ function App() {
             <li>MS Office</li>
             <li>Anglický jazyk</li>
           </ul>
+          <p>Některé z dovedností prezentuji v praktické ukázce <a href='https://www.linkedin.com/posts/tereza-chud%C4%9Bjov%C3%A1-b41986180_github-terichudejovasource-app-activity-7249023370892054529-BGVQ?utm_source=share&utm_medium=member_desktop' target='_blank'>ZDE.</a></p>
         </div>
       </div>
 
